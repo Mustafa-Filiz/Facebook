@@ -1,122 +1,148 @@
 *{
-    box-sizing: border-box;
-}
-
-body{
-    background-color: rgb(240, 242, 245);
-    font-family: Arial, Helvetica, sans-serif;
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
 }
 
-img{
-    width: 300px;
-    height: 106px;
-    margin: -28px;
+section{
+    width: 100%;
+    height: 700px;
+    background-color: rgb(240,242,245);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .div1{
-    width: 500px;
-    height: max-content;
-    display: inline-block;
-    margin: 0px 100px 0px 150px;
-    
+    width: 40%;
+    margin-left: -1%;
+    padding-bottom: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
 }
 
-h2{
-    font-size: 28px;
-    line-height: 32px;
-    color: #1c1e21;
+.div1 img{
+    width: max-content;
+    margin-left: -4%;
+    margin-bottom: -1%;
+}
+
+.div1 h2{
+    width: 88%;
+    font-size: 1.8rem;
     font-weight: 400;
-    margin: 16px 0px;
+    color: #1c1e21;
 }
 
 .div2{
-    display: inline-block;
-    background-color: #fff;
-    text-align: center;
-    border-radius: 5px;
-    width: 395px;
-    height: 370px;
-    margin: 180px 0px 0px 0px;
-    line-height: 20px;
+    width: 26%;
+    height: auto;
+    margin-top: -5%;
+    margin-left: -3%;
+}
+
+.div3{
+    border: 1px solid gainsboro;
+    border-radius: 6px;
+    box-shadow: 1px 1px 8px 0 gainsboro, -1px -1px 8px 0 gainsboro;
+    padding: 4%;
+    background-color: white;
 }
 
 #email{
-    width: 360px;
-    height: 50px;
-    margin-top: 15px;
+    width: 100%;
+    padding: 4%;
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: #1d2129;
+    border: 1px solid gainsboro;
     border-radius: 5px;
-    border: 1px solid #dddfe2;
-    font-size: 17px;
-    padding-left: 10px;
+    margin-bottom: 3%;
 }
-#pass{
-    width: 360px;
-    height: 50px;
-    margin-top: 15px;
-    border-radius: 5px;
-    border: 1px solid #dddfe2;
-    font-size: 17px;
-    padding-left: 10px;
-}
-input[type = "submit"]{
-    width: 360px;
-    height: 50px;
-    margin-top: 15px;
-    border-radius: 5px;
-    border: 1px solid #dddfe2;
-    font-size: 20px;
-    font-weight: 700;
-    background-color: #1877f2;
-    color: white;
 
+#pass{
+    width: 100%;
+    padding: 4%;
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: #1d2129;
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+    margin-bottom: 4%;
+}
+
+#giriş{
+    width: 100%;
+    padding: 3%;
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #fff;
+    background-color: #1772E9;
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+    margin-bottom: 5%;
+    cursor: pointer;
 }
 
 .div4{
-    margin-top: 15px;
+    text-align: center;
+    margin-bottom: 6%;
 }
 
-#link1{
+.div4 a{
+    font-size: 0.875rem;
+    font-weight: 400;
+    color: #1877f2; 
     text-decoration: none;
-    font-size: 15px;
-    font-weight: 500;
-    color: #1877f2;
+}
+
+.div4:hover{
+    text-decoration: underline;
 }
 
 hr{
-    width: 360px;
-    height: 0px;
-    margin-top: 30px;
-    color: #dddfe2;
+    background-color: gainsboro;
+    margin-bottom: 6%;
+}
+
+.button{
+    width: 100%;
+    text-align: center;
 }
 
 button{
-    background-color: #47b72a;
-    color: white;
-    border: 1px solid #47b72a;
+    width: 50%;
+    padding: 3%;
+    border: none;
     border-radius: 5px;
-    width: 200px;
-    height: 50px;
-    font-size: 17px;
+    background-color: #42B72A;
+    font-size: 1.1rem;
     font-weight: 700;
-    margin-top: 20px;
-    margin-bottom: 30px;
+    color: white;
+    white-space: nowrap;
+    margin-bottom: 2%;
+    cursor: pointer;
 }
 
 .div5{
-    display: inline-block;
-    margin: 0px 0px 0px 820px;
-    font-size: 14px;
+    width: 100%;
+    text-align: center;
+    margin-top: 7%;
+    font-size: 0.875rem;
     font-weight: 400;
     color: #1c1e21;
 }
 
-#link2{
+.div5 a{
+    font-size: 0.875rem;
     font-weight: 600;
     color: #1c1e21;
     text-decoration: none;
 }
 
-#link2:hover{
+.div5 a:hover{
     text-decoration: underline;
 }
